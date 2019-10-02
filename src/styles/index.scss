@@ -1,13 +1,71 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+body {
+    background: black;
+    font-family: 'Turret Road', cursive;
+}
+
+.starwarslogo{
+    margin: auto;
+    width: 200px;
+    height: 95px;
+}
+.navbar2{
+    padding-left: 40%;
+    margin-top: 100px;
+    height: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: none;
+    background-color: #000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+
+.navbar-brand{
+    display: block;
+    background-color: black;
+    width: 100%;
+    max-width: 203px;
+    height: 100%;
+    max-height: 88px;
+    margin:  auto ;
+    box-sizing: border-box;
+    background-size: contain;
+     margin-left: 60px;
+
+
+}
+
+
+
+.card-planets, .card-characters{
+    background: black;
+    margin: auto;
+
+}
+.title{
+    color:white;
+}
+
+
+.nav-link, .list-group{
+    width: 20%;
+}
+
+.categories{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    padding-top: 200px;
+     margin-left: 60px;
+    border-top: 3px solid rgba(170,170,170,0.25);
+    border-bottom: 3px solid rgba(170,170,170,0.25);
+    box-sizing: border-box;
+
+}
